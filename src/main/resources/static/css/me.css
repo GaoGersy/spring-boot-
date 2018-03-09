@@ -1,0 +1,35 @@
+body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,html,input,li,menu,ol,p,table,td,textarea,th,ul{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left;font-weight:400}body,html,iframe,img{border:0}li{list-style:none}h1,h2,h3,h4,h5,h6,small{font-size:100%}textarea{overflow:auto;resize:none}label,summary{cursor:default}a,button{cursor:pointer}b,em,h1,h2,h3,h4,h5,h6,strong{font-weight:700}a,a:hover{text-decoration:none}body{background:#fff;-webkit-overflow-scrolling:touch;overflow-scrolling:touch}a{color:#000}.guide section,.message .list{color:#5b5b5b}.fl{float:left}.fr{float:right}.clearfix{zoom:1}.clearfix:after{clear:both;content:'.';display:block;width:0;height:0;visibility:hidden}.scroll{overflow-x:hidden;overflow-y:scroll}[v-cloak]{display:none}.guide .title{font-size:.6rem;font-weight:bolder}.guide .seconTitle{font-size:.36rem}.guide .reg{font-size:.56rem}.about{font-size:.32rem}.about .title{font-size:.44rem;text-align:center}.message .title{font-size:.6rem}.message .list .title{display:inline-block;font-size:.3rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:4.8rem;vertical-align:middle;color:#000}.message .list .time{float:right;font-size:.26rem;color:#b5b5b5;vertical-align:middle}.message .list li{line-height:.9rem;border-bottom:1px solid #e5e5e5;cursor:pointer}.message .list li a{color:#5b5b5b;display:inline-block;width:100%}.message-detail .title{text-align:center;font-size:.44rem}.message-detail .time{text-align:center;color:#5b5b5b;font-size:.26rem}e-space: nowrap;
+  width: 4.8rem;
+  vertical-align: middle;
+  color: #000;
+}
+
+.message .list .time {
+  float: right;
+  font-size: 0.26rem;
+  color: #b5b5b5;
+  vertical-align: middle;
+}
+
+.message .list li {
+  line-height: 0.9rem;
+  border-bottom: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+.message .list li a {
+  color: #5b5b5b;
+  display: inline-block;
+  width: 100%;
+}
+
+.message-detail .title {
+  text-align: center;
+  font-size: 0.44rem;
+}
+
+.message-detail .time {
+  text-align: center;
+  color: #5b5b5b;
+  font-size: 0.26rem;
+}

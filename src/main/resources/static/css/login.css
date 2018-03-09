@@ -1,0 +1,156 @@
+.login {
+  font-size: 0.32rem;
+}
+
+.login .login-card {
+  margin: 0 0.4rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login .login-card .userName {
+  margin-top: 0.4rem;
+}
+
+.login .auto-login {
+  text-align: center;
+}
+
+.login .weui-cells_form {
+  border-radius: 0.2rem;
+  padding: 0 0.2rem;
+}
+
+.login .weui-cell {
+  padding: 15px;
+}
+
+.login .weui-cell:before {
+  right: 0.3rem;
+}
+
+.login .submit {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.login .submit .weui-btn {
+  width: 100%;
+}
+
+.login .title {
+  font-size: 0.5rem;
+  text-align: center;
+  height: 1.5rem;
+  color: #155E8A;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.login .logo {
+  text-align: center;
+  width: 7.5rem;
+  margin-top: 0.4rem;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.login .logo img {
+  width: 1.2rem;
+  vertical-align: middle;
+}
+
+.login .weui-cell_vcode .code {
+  z-index: 10;
+}
+
+.login .weui-cell_vcode .validation-img {
+  height: 0.52rem;
+  width: 1.17rem;
+  border-color: transparent;
+  border: 1px solid #ccc;
+}
+
+.login .defautl-code {
+  display: inline-block;
+  width: 1.17rem;
+  height: 0.51rem;
+  text-align: center;
+  line-height: 0.51rem;
+  position: absolute;
+  right: 0.48rem;
+  bottom: 2.4rem;
+  z-index: 1;
+  color: #ccc;
+}
+
+.logout {
+  background: #f8f8f8;
+  margin-top: 40%;
+}
+
+.logout .cancel {
+  margin: 1rem 0.4rem 0;
+}
+
+.logout .isLogin {
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.logout .userName {
+  font-size: 0.32rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.logout .login {
+  font-size: 0.34rem;
+  width: 4rem;
+  height: 0.8rem;
+  background: #45C01A;
+  border-width: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  border-radius: 3px;
+  color: white;
+}
+
+.searchResult {
+  background: #f8f8f8;
+}
+
+.searchResult li {
+  margin-top: 0.2rem;
+  height: 1.8rem;
+  background: white;
+}
+
+.searchResult li .imgIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 0.2rem;
+  margin-top: 0.21rem;
+  margin-bottom: auto;
+  float: left;
+}
+
+.searchResult li .text {
+  float: left;
+  margin-top: 0.06rem;
+  margin-left: 0.2rem;
+}
+
+.searchResult li .text p {
+  font-size: 0.3rem;
+}
+
+.searchResult li .detailIcon {
+  width: 0.6rem;
+  height: 0.6rem;
+  float: right;
+  margin-right: 0.2rem;
+  margin-top: 0.6rem;
+  margin-bottom: auto;
+}

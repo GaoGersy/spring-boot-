@@ -1,0 +1,77 @@
+body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,html,input,li,menu,ol,p,table,td,textarea,th,ul{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left;font-weight:400}body,html,iframe,img{border:0}li{list-style:none}h1,h2,h3,h4,h5,h6,small{font-size:100%}textarea{overflow:auto;resize:none}label,summary{cursor:default}a,button{cursor:pointer}b,em,h1,h2,h3,h4,h5,h6,strong{font-weight:700}a,a:hover{text-decoration:none}body{background:#fff;-webkit-overflow-scrolling:touch;overflow-scrolling:touch}a{color:#000}.fl{float:left}.fr{float:right}.clearfix{zoom:1}.clearfix:after{clear:both;content:'.';display:block;width:0;height:0;visibility:hidden}.order .loading-data,.orderList .loading-data,.searchResult .loading-data{margin:-.45rem 0 0 -2.4rem;position:absolute;left:50%;top:50%;z-index:1005}.order .loading-icon,.orderList .loading-icon,.searchResult .loading-icon{width:.9rem;height:.9rem}.order .network,.order .null,.orderList .network,.orderList .null,.searchResult .network,.searchResult .null{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);width:4rem;height:3rem;text-align:center}.scroll{overflow-x:hidden;overflow-y:scroll}.order .item .text p,.orderList .content ul li .text .data,.searchResult li .text p{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.searchResult{background:#f8f8f8}.searchResult .hide-img{display:none}.searchResult .loading,.searchResult .network,.searchResult .null{display:inline-block}.order .hide-img,.searchResult .content{display:none}.searchResult .network .noData,.searchResult .null .noData{font-size:.32rem;color:#ccc}.searchResult .imgList{background-color:#fff}.searchResult li{height:2rem;background:#fff;border-bottom:1px solid #cdcdcd;margin-left:.2rem;box-sizing:border-box;padding-top:.24rem}.searchResult li .img-icon{width:2rem;height:1.5rem;float:left}.searchResult li .text{float:left;width:4.8rem;margin-left:.2rem;line-height:1.4}.searchResult li .text p{color:#5b5b5b;font-size:.28rem}.searchResult li .detail-icon{width:.5rem;height:.5rem;float:right;margin-right:.2rem;margin-top:.75rem;margin-bottom:auto}.order{background:#f8f8f8}.order .loading,.order .network,.order .null{display:inline-block}.order .dropload-down,.orderList .hide-img{display:none}.order .network .noData,.order .null .noData{font-size:.32rem;color:#ccc}.order .order-list{background-color:#fff;display:none}.order .order-list .name{font-size:.3rem;padding-left:.2rem;height:.8rem;line-height:.8rem;border-bottom:1px solid #ccc}.order .item{border-bottom:1px solid #cdcdcd;margin-left:.2rem;padding:.2rem 0}.order .item .img-icon{width:2rem;height:1.5rem;float:left}.order .item .text{float:left;width:4.8rem;line-height:1.6;padding-left:.2rem;color:#5b5b5b}.order .item .text p{font-size:.3rem}.order .null .noData,.orderList .network .noData,.orderList .null .noData{font-size:.32rem;color:#ccc}.order .item .detail-icon{width:.5rem;height:.5rem;float:right;margin-right:.2rem;margin-top:.65rem;margin-bottom:auto}.order .null img{width:2rem;height:2rem}.orderList{background:#f8f8f8}.orderList .loading,.orderList .network,.orderList .null{display:inline-block}.orderList .content,.orderList .dropload-down{display:none}.orderList .contentList{margin:0 .2rem}.orderList .tips{background:#fff;font-size:.34rem;width:100%}.orderList .tips .tab .item{float:left;width:33.3%;height:.8rem;line-height:.8rem;text-align:center;box-sizing:border-box;color:#666;font-size:.32rem}.orderList .tips .tab .on{border-bottom:2px solid #45C01A;color:#45C01A}.orderList .content ul li{background:#fff;margin-top:.2rem;padding:.1rem .2rem}.orderList .content ul li .text{float:left;line-height:1.7;margin-top:.2rem;width:70%;font-size:.3rem}.orderList .content ul li .text .data{width:100%;line-height:.6rem}.orderList .content ul li .text label{display:inline-block;width:1.5rem;color:#666;padding-left:.1rem}.orderList .content ul li .text .order-data{width:70%;color:#333}.orderList .content ul li .text .order-name{width:6.2rem}.orderList .content ul li .text .icon{display:inline-block;width:.4rem;height:.4rem;background:url(../images/namelist.png) no-repeat;vertical-align:middle}.orderList .content ul li .text .name{background:url(../images/namelist.png) no-repeat;background-size:.4rem}.orderList .content ul li .text .num{background:url(../images/num1.png) no-repeat;background-size:.4rem}.orderList .content ul li .text .time{background:url(../images/meditor-time.png) no-repeat;background-size:.4rem}.orderList .content ul li .text .statu{background:url(../images/audit.png) no-repeat;background-size:.4rem}.orderList .content ul li .more{width:30%;height:.64rem;float:right;margin-top:.9rem;font-size:.3rem}.orderList .content ul li .detail-icon{width:.5rem;height:.5rem;float:right;margin-top:.04rem}.orderList .content ul li .cancel{font-size:.3rem;width:1.6rem;height:.6rem;line-height:.6rem;border:1px solid #45C01A;color:#45C01A;border-radius:.1rem;float:left;outline:0;text-align:center}  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 0.6rem;
+}
+
+.orderList .content ul li .text label {
+  display: inline-block;
+  width: 1.5rem;
+  color: #666;
+  padding-left: 0.1rem;
+}
+
+.orderList .content ul li .text .order-data {
+  width: 70%;
+  color: #333;
+}
+
+.orderList .content ul li .text .order-name {
+  width: 6.2rem;
+}
+
+.orderList .content ul li .text .icon {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url("../images/namelist.png") no-repeat;
+  vertical-align: middle;
+}
+
+.orderList .content ul li .text .name {
+  background: url("../images/namelist.png") no-repeat;
+  background-size: 0.4rem;
+}
+
+.orderList .content ul li .text .num {
+  background: url("../images/num1.png") no-repeat;
+  background-size: 0.4rem;
+}
+
+.orderList .content ul li .text .time {
+  background: url("../images/meditor-time.png") no-repeat;
+  background-size: 0.4rem;
+}
+
+.orderList .content ul li .text .statu {
+  background: url("../images/audit.png") no-repeat;
+  background-size: 0.4rem;
+}
+
+.orderList .content ul li .more {
+  width: 30%;
+  height: 0.64rem;
+  float: right;
+  margin-top: 0.9rem;
+  font-size: 0.3rem;
+}
+
+.orderList .content ul li .detail-icon {
+  width: 0.5rem;
+  height: 0.5rem;
+  float: right;
+  margin-top: 0.04rem;
+}
+
+.orderList .content ul li .cancel {
+  font-size: 0.3rem;
+  width: 1.6rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  border: 1px solid  #45C01A;
+  color: #45C01A;
+  border-radius: 0.1rem;
+  float: left;
+  outline: none;
+  text-align: center;
+}

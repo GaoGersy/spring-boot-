@@ -1,0 +1,87 @@
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, table, th, td, form, input, button, textarea, menu {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th {
+  text-align: left;
+  font-weight: normal;
+}
+
+html, body, img, iframe {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, small {
+  font-size: 100%;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+label, summary {
+  cursor: default;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, em, strong, b {
+  font-weight: bold;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  color: #000;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/*==for IE6/7 Maxthon2==*/
+.clearfix:after {
+  clear: both;
+  content: '.';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.scroll {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
