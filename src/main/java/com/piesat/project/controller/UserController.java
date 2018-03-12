@@ -1,6 +1,7 @@
 package com.piesat.project.controller;
 
 import com.piesat.project.common.Result;
+import com.piesat.project.common.log.annotation.SystemControllerLog;
 import com.piesat.project.common.utils.ShiroUtils;
 
 import org.apache.shiro.SecurityUtils;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("")
 public class UserController {
 
+    @SystemControllerLog(description = "登录")
     @GetMapping("/login")
     String login() {
         return "html/login";
@@ -37,6 +39,7 @@ public class UserController {
         }
     }
 
+    @SystemControllerLog(description = "登出")
     @GetMapping("/logout")
     String logout() {
         ShiroUtils.logout();
@@ -46,5 +49,12 @@ public class UserController {
     @GetMapping("/position")
     String position() {
         return "html/shadow/position";
+    }
+
+    @SystemControllerLog(description = "测试")
+    @ResponseBody
+    @GetMapping("/test")
+    Result test() {
+        return Result.success("来一波测试");
     }
 }

@@ -4,12 +4,14 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.concurrent.TimeUnit;
 
 public class RedisHelper {
 
@@ -129,5 +131,23 @@ public class RedisHelper {
                 return "ok";
             }
         });
+    }
+
+    public static <K,V> void setValue(RedisTemplate<K,V> redisTemplate,K key,V value){
+        setValue(redisTemplate,key, value, 10);
+    }
+
+    public static <K,V> void setValue(RedisTemplate<K,V> redisTemplate,K key,V value,long timeout){
+        ValueOperations<K, V> operations = redisTemplate.opsForValue();
+        operations.set(key, value, timeout, TimeUnit.SECONDS);
+    }
+
+    public static <K,V>V getValue(RedisTemplate<K,V> redisTemplate,K key){
+        ValueOperations<K, V> operations = redisTemplate.opsForValue();
+        return operations.get(key);
+    }
+
+    public static <K,V> boolean deleteValue(RedisTemplate<K,V> redisTemplate, K key){
+        return redisTemplate.delete(key);
     }
 }
